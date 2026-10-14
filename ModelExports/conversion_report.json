@@ -1,0 +1,975 @@
+[
+  {
+    "source": "/Users/zhangyice/Downloads/星见雅_by_绝区零_5497f7f98efc5b2a7cb509961638d435/幽灵.pmx",
+    "source_sha256": "e9199f10bdb66e1cbfc4889088c05e0cd3a9fc572f275648cdcf0ef98e054d52",
+    "fbx": "Unity/星见雅/幽灵.fbx",
+    "meshes": 1,
+    "vertices": 759,
+    "triangles": 1306,
+    "bones": 1,
+    "blend_shapes": 0,
+    "missing_textures": [],
+    "materials": [
+      {
+        "name": "Material #2100",
+        "base_color": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929,
+          1.0
+        ],
+        "base_texture": null,
+        "double_sided": false
+      }
+    ],
+    "fbx_roundtrip": {
+      "meshes": 1,
+      "triangles": 1306,
+      "bones": 1,
+      "blend_shapes": 0
+    },
+    "bytes": 63276,
+    "missing_source_textures": []
+  },
+  {
+    "source": "/Users/zhangyice/Downloads/星见雅_by_绝区零_5497f7f98efc5b2a7cb509961638d435/星见雅.pmx",
+    "source_sha256": "56ffc00d398b0a3c5a9340b6357e1089fb468c6879fdead145fc4baceba01b96",
+    "fbx": "Unity/星见雅/星见雅.fbx",
+    "meshes": 1,
+    "vertices": 27086,
+    "triangles": 33528,
+    "bones": 484,
+    "blend_shapes": 52,
+    "missing_textures": [],
+    "materials": [
+      {
+        "name": "颜2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "体2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮饰",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/头饰.png",
+        "double_sided": true
+      },
+      {
+        "name": "袖",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "睫",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "口舌",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "齿",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "衣",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体.png",
+        "double_sided": true
+      },
+      {
+        "name": "肌",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮饰2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "眉",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "目影",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "颜",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "白目",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "目光",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "目光2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          0.3499999940395355
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "新規",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "袜",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "体",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体.png",
+        "double_sided": true
+      },
+      {
+        "name": "目",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "衣内",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/内.png",
+        "double_sided": false
+      },
+      {
+        "name": "裙",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体.png",
+        "double_sided": true
+      }
+    ],
+    "fbx_roundtrip": {
+      "meshes": 1,
+      "triangles": 33528,
+      "bones": 484,
+      "blend_shapes": 52
+    },
+    "bytes": 3845884,
+    "missing_source_textures": []
+  },
+  {
+    "source": "/Users/zhangyice/Downloads/星见雅_by_绝区零_5497f7f98efc5b2a7cb509961638d435/武器.pmx",
+    "source_sha256": "f7ce8fa46896a39dda3d5e71aa7f7653243ecd5a867ed222130743ea2e162f7d",
+    "fbx": "Unity/星见雅/武器.fbx",
+    "meshes": 1,
+    "vertices": 4008,
+    "triangles": 4353,
+    "bones": 17,
+    "blend_shapes": 0,
+    "missing_textures": [],
+    "materials": [
+      {
+        "name": "武器",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/武器.png",
+        "double_sided": true
+      },
+      {
+        "name": "刃1",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/武器.png",
+        "double_sided": true
+      },
+      {
+        "name": "刃2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "base_texture": "Textures/tex/武器.png",
+        "double_sided": true
+      }
+    ],
+    "fbx_roundtrip": {
+      "meshes": 1,
+      "triangles": 4353,
+      "bones": 17,
+      "blend_shapes": 0
+    },
+    "bytes": 234748,
+    "missing_source_textures": []
+  },
+  {
+    "source": "/Users/zhangyice/Downloads/叶瞬光_by_绝区零_200ef4ac11a186467bd08ce41e3a5143/叶瞬光.pmx",
+    "source_sha256": "208e7484db2e495010a1dbe103bd2f76a903356a43f1a1b6b9b3bf42b06738f3",
+    "fbx": "Unity/叶瞬光/叶瞬光.fbx",
+    "meshes": 1,
+    "vertices": 63277,
+    "triangles": 64619,
+    "bones": 672,
+    "blend_shapes": 57,
+    "missing_textures": [],
+    "materials": [
+      {
+        "name": "颜",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "口线",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "肌2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/肌2.png",
+        "double_sided": true
+      },
+      {
+        "name": "白目",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮2.png",
+        "double_sided": true
+      },
+      {
+        "name": "前髪",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "体2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/腿.png",
+        "double_sided": true
+      },
+      {
+        "name": "齿",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "睫眉",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮1",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "口舌",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "髪+",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/sp.png",
+        "double_sided": true
+      },
+      {
+        "name": "目光",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          0.30000001192092896
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "体",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体.png",
+        "double_sided": true
+      },
+      {
+        "name": "尾",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/腿.png",
+        "double_sided": true
+      },
+      {
+        "name": "目",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "头饰",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "颜2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "饰",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/饰.png",
+        "double_sided": true
+      },
+      {
+        "name": "带",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体.png",
+        "double_sided": true
+      },
+      {
+        "name": "目影",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "头饰2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮2.png",
+        "double_sided": true
+      },
+      {
+        "name": "肌",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/肌.png",
+        "double_sided": true
+      },
+      {
+        "name": "挂饰",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/腿.png",
+        "double_sided": true
+      }
+    ],
+    "fbx_roundtrip": {
+      "meshes": 1,
+      "triangles": 64619,
+      "bones": 672,
+      "blend_shapes": 57
+    },
+    "bytes": 6950844,
+    "missing_source_textures": []
+  },
+  {
+    "source": "/Users/zhangyice/Downloads/叶瞬光_by_绝区零_200ef4ac11a186467bd08ce41e3a5143/叶瞬光_白.pmx",
+    "source_sha256": "08d5536ed7e54756334768ed8703947006bfaab13fb95c24825faae911511bc0",
+    "fbx": "Unity/叶瞬光/叶瞬光_白.fbx",
+    "meshes": 1,
+    "vertices": 66572,
+    "triangles": 69951,
+    "bones": 776,
+    "blend_shapes": 57,
+    "missing_textures": [],
+    "materials": [
+      {
+        "name": "口舌",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "尾",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/腿2.png",
+        "double_sided": true
+      },
+      {
+        "name": "头饰",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/白髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "饰",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/饰.png",
+        "double_sided": true
+      },
+      {
+        "name": "颜2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮1",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/白髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "齿",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "白目",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "角",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/角.png",
+        "double_sided": true
+      },
+      {
+        "name": "目",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "带",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体.png",
+        "double_sided": true
+      },
+      {
+        "name": "头饰2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/髮2.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/白髮.png",
+        "double_sided": true
+      },
+      {
+        "name": "颜",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "口线",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "目影",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "目光",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          0.30000001192092896
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "体2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/腿2.png",
+        "double_sided": true
+      },
+      {
+        "name": "挂饰",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/腿2.png",
+        "double_sided": true
+      },
+      {
+        "name": "体",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/体2.png",
+        "double_sided": true
+      },
+      {
+        "name": "睫眉",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/颜.png",
+        "double_sided": true
+      },
+      {
+        "name": "肌2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/肌2_2.png",
+        "double_sided": true
+      },
+      {
+        "name": "髮+",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/sp2.png",
+        "double_sided": true
+      },
+      {
+        "name": "肌",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/肌_2.png",
+        "double_sided": true
+      }
+    ],
+    "fbx_roundtrip": {
+      "meshes": 1,
+      "triangles": 69951,
+      "bones": 776,
+      "blend_shapes": 57
+    },
+    "bytes": 7333740,
+    "missing_source_textures": []
+  },
+  {
+    "source": "/Users/zhangyice/Downloads/叶瞬光_by_绝区零_200ef4ac11a186467bd08ce41e3a5143/武器.pmx",
+    "source_sha256": "ff35923a6be793f5a7029c99f8511e9a9f198627e11e3c00a2956086a9721069",
+    "fbx": "Unity/叶瞬光/武器.fbx",
+    "meshes": 1,
+    "vertices": 3267,
+    "triangles": 4196,
+    "bones": 12,
+    "blend_shapes": 0,
+    "missing_textures": [],
+    "materials": [
+      {
+        "name": "MAT_Zhenzhen_Weapon_3",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/武器2.png",
+        "double_sided": true
+      },
+      {
+        "name": "MAT_Zhenzhen_Weapon_2",
+        "base_color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "base_texture": "Textures/tex/武器.png",
+        "double_sided": true
+      }
+    ],
+    "fbx_roundtrip": {
+      "meshes": 1,
+      "triangles": 4196,
+      "bones": 12,
+      "blend_shapes": 0
+    },
+    "bytes": 195196,
+    "missing_source_textures": []
+  }
+]
