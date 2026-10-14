@@ -1,0 +1,43 @@
+# Unity-generated caches, temporary files, and local settings
+/ZZZ/[Ll]ibrary/
+/ZZZ/[Tt]emp/
+/ZZZ/[Oo]bj/
+/ZZZ/[Ll]ogs/
+/ZZZ/[Uu]ser[Ss]ettings/
+/ZZZ/[Mm]emoryCaptures/
+/ZZZ/[Rr]ecordings/
+
+# Build output
+/ZZZ/[Bb]uild/
+/ZZZ/[Bb]uilds/
+
+# IDE settings and generated project files
+/ZZZ/.vs/
+/ZZZ/.vscode/
+/ZZZ/.idea/
+/ZZZ/.gradle/
+/ZZZ/ExportedObj/
+/ZZZ/*.csproj
+/ZZZ/*.unityproj
+/ZZZ/*.sln
+/ZZZ/*.slnx
+/ZZZ/*.suo
+/ZZZ/*.tmp
+/ZZZ/*.user
+/ZZZ/*.userprefs
+/ZZZ/*.pidb
+/ZZZ/*.booproj
+/ZZZ/*.svd
+/ZZZ/*.opendb
+/ZZZ/*.VC.db
+
+# Unity crash reports
+/ZZZ/sysinfo.txt
+/ZZZ/mono_crash.*
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
