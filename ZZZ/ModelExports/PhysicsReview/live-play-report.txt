@@ -1,0 +1,1 @@
+Live Play check: finite=339/339, maximum local angle=6.52, preview=True
