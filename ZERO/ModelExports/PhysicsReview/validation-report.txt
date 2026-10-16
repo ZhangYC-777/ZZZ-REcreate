@@ -1,0 +1,8 @@
+20-second / 1200-step validation at 60 Hz
+Bones: 339
+Finite particles: True
+Maximum local rotation from rest: 7.042 degrees
+Maximum particle segment length error: 0.021865 m (q_15_0, frame 408)
+Maximum endpoint motion: 0.6551 m (左td_19_1)
+Maximum mesh drift after settling: 0.0134 m
+PASS: True
