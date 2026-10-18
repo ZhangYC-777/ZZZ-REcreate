@@ -62,3 +62,6 @@
 ._*
 Thumbs.db
 Desktop.ini
+
+# Local character-animation extraction workspace and review artifacts
+/AnimationWork/
