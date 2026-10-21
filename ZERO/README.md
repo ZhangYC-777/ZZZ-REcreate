@@ -2,6 +2,8 @@
 
 2026-10-16 从同仓库的 `ZZZ/`（Unity 6000.6.3f1）迁入，继续采用之前的模型、渲染和骨骼动态流程。
 
+2026-10-19 已加入叶瞬光、星见雅的跑步、停跑、闪避、普攻及收招动画，共 48 段动作的 InPlace / RootMotion 两版。接入前阅读 [动画与 Avatar 使用说明](Assets/Animations/Characters/README.md)，动作预览和验证报告见 [AnimationReview](AnimationReview/README.md)。状态机由开发者自行搭建。
+
 ## 打开与查看
 
 1. 用 **Unity 2022.3.62f1c1** 打开此目录。本机对应 `E:/unity/Editor/Unity.exe`。
