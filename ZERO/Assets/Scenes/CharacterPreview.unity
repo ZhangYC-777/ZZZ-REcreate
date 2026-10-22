@@ -10518,25 +10518,6 @@ MonoBehaviour:
   collisionColor: {r: 1, g: 0, b: 0, a: 1}
   groundCollisionColor: {r: 0, g: 1, b: 0, a: 1}
   angleLimitDrawScale: 0.05
---- !u!114 &520469134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 520469129}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62675446990bf0746b57723bb3834d5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SecondaryMotionPreview
-  previewMotion: 0
-  movementAmplitude: 0.06
-  turnDegrees: 8
-  frequency: 0.6
-  clothingBones: 118
-  hairBones: 162
-  accessoryBones: 59
 --- !u!4 &520469136 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 471453ac5281e427691119ee8db50957, type: 3}
@@ -17866,9 +17847,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 471453ac5281e427691119ee8db50957, type: 3}
       insertIndex: -1
       addedObject: {fileID: 520469133}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 471453ac5281e427691119ee8db50957, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 520469134}
     - targetCorrespondingSourceObject: {fileID: -888709913314580369, guid: 471453ac5281e427691119ee8db50957, type: 3}
       insertIndex: -1
       addedObject: {fileID: 484161467}

@@ -84,8 +84,6 @@ public static class LegacyProjectMigration
         var scene = EditorSceneManager.OpenScene(ScenePath);
         var root = GameObject.Find("叶瞬光");
         if (root == null) throw new InvalidOperationException("The migrated character was not loaded.");
-        var preview = root.GetComponent<SecondaryMotionPreview>();
-        if (preview != null) preview.previewMotion = false;
         var camera = Camera.main;
         if (camera == null) throw new InvalidOperationException("The migrated scene has no main camera.");
         if (scene.GetRootGameObjects().All(go => go.GetComponent<Light>() == null))

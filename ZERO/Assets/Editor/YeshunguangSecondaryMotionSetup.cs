@@ -236,13 +236,7 @@ public static class YeshunguangSecondaryMotionSetup
         manager.friction = .7f;
         manager.collideWithGround = false;
         manager.FindSpringBones(true);
-        var preview = root.GetComponent<SecondaryMotionPreview>() ?? Undo.AddComponent<SecondaryMotionPreview>(root);
-        preview.previewMotion = false;
-        preview.clothingBones = profiles.Count(p => p.Value.category == 0);
-        preview.hairBones = profiles.Count(p => p.Value.category == 1);
-        preview.accessoryBones = profiles.Count(p => p.Value.category == 2);
         EditorUtility.SetDirty(manager);
-        EditorUtility.SetDirty(preview);
         PrefabUtility.RecordPrefabInstancePropertyModifications(manager);
         Undo.CollapseUndoOperations(undoGroup);
         EditorSceneManager.MarkSceneDirty(root.scene);
@@ -252,7 +246,6 @@ public static class YeshunguangSecondaryMotionSetup
         report.AppendLine("Spring bones: " + manager.springBones.Length);
         report.AppendLine("Body colliders: " + (capsules.Count + spheres.Count));
         foreach (var g in profiles.GroupBy(p => p.Value.name)) report.AppendLine(g.Key + ": " + g.Count());
-        report.AppendLine("Preview Motion is OFF. Enable it on the character in Play mode to preview.");
         foreach (var item in profiles)
             report.AppendLine(item.Key.name + " | " + item.Value.name + " | tip=" + item.Key.tipNode.name +
                 " | limit=" + item.Value.angle + " | colliders=" + (item.Key.capsuleColliders.Length + item.Key.sphereColliders.Length));
@@ -276,8 +269,6 @@ public static class YeshunguangSecondaryMotionSetup
             clone = Object.Instantiate(source);
             clone.name = "SecondaryMotionValidationClone";
             SceneManager.MoveGameObjectToScene(clone, testScene);
-            var preview = clone.GetComponent<SecondaryMotionPreview>();
-            if (preview != null) preview.enabled = false;
             var manager = clone.GetComponent<SpringManager>();
             manager.automaticUpdates = false;
             manager.FindSpringBones(true);
