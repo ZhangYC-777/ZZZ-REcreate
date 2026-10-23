@@ -1,0 +1,97 @@
+﻿角色,动画名,用途,版本,时长秒,循环,路径,根运动最终净位移米
+Miyabi,Attack_01,普攻资源分支,InPlace,0.650000,False,Miyabi/InPlace/Attack_01.anim,0.000000
+Miyabi,Attack_01,普攻资源分支,RootMotion,0.650000,False,Miyabi/RootMotion/Attack_01.anim,2.488317
+Miyabi,Attack_01_End,普攻资源分支 / 收招,InPlace,3.350000,False,Miyabi/InPlace/Attack_01_End.anim,0.000000
+Miyabi,Attack_01_End,普攻资源分支 / 收招,RootMotion,3.350000,False,Miyabi/RootMotion/Attack_01_End.anim,0.599851
+Miyabi,Attack_02,普攻资源分支,InPlace,0.583333,False,Miyabi/InPlace/Attack_02.anim,0.000000
+Miyabi,Attack_02,普攻资源分支,RootMotion,0.583333,False,Miyabi/RootMotion/Attack_02.anim,1.569138
+Miyabi,Attack_02_End,普攻资源分支 / 收招,InPlace,3.483334,False,Miyabi/InPlace/Attack_02_End.anim,0.000000
+Miyabi,Attack_02_End,普攻资源分支 / 收招,RootMotion,3.483334,False,Miyabi/RootMotion/Attack_02_End.anim,0.560723
+Miyabi,Attack_03,普攻资源分支,InPlace,1.100000,False,Miyabi/InPlace/Attack_03.anim,0.000000
+Miyabi,Attack_03,普攻资源分支,RootMotion,1.100000,False,Miyabi/RootMotion/Attack_03.anim,1.623534
+Miyabi,Attack_03_End,普攻资源分支 / 收招,InPlace,3.233334,False,Miyabi/InPlace/Attack_03_End.anim,0.000000
+Miyabi,Attack_03_End,普攻资源分支 / 收招,RootMotion,3.233334,False,Miyabi/RootMotion/Attack_03_End.anim,0.117165
+Miyabi,Attack_04,普攻资源分支,InPlace,0.616667,False,Miyabi/InPlace/Attack_04.anim,0.000000
+Miyabi,Attack_04,普攻资源分支,RootMotion,0.616667,False,Miyabi/RootMotion/Attack_04.anim,2.907240
+Miyabi,Attack_04_02,普攻资源分支,InPlace,0.750000,False,Miyabi/InPlace/Attack_04_02.anim,0.000000
+Miyabi,Attack_04_02,普攻资源分支,RootMotion,0.750000,False,Miyabi/RootMotion/Attack_04_02.anim,3.331026
+Miyabi,Attack_04_02_End,普攻资源分支 / 收招,InPlace,3.750000,False,Miyabi/InPlace/Attack_04_02_End.anim,0.000000
+Miyabi,Attack_04_02_End,普攻资源分支 / 收招,RootMotion,3.750000,False,Miyabi/RootMotion/Attack_04_02_End.anim,0.377700
+Miyabi,Attack_04_End,普攻资源分支 / 收招,InPlace,3.750000,False,Miyabi/InPlace/Attack_04_End.anim,0.000000
+Miyabi,Attack_04_End,普攻资源分支 / 收招,RootMotion,3.750000,False,Miyabi/RootMotion/Attack_04_End.anim,0.377440
+Miyabi,Attack_05,普攻资源分支,InPlace,1.350000,False,Miyabi/InPlace/Attack_05.anim,0.000000
+Miyabi,Attack_05,普攻资源分支,RootMotion,1.350000,False,Miyabi/RootMotion/Attack_05.anim,3.815596
+Miyabi,Attack_05_02,普攻资源分支,InPlace,2.050000,False,Miyabi/InPlace/Attack_05_02.anim,0.000000
+Miyabi,Attack_05_02,普攻资源分支,RootMotion,2.050000,False,Miyabi/RootMotion/Attack_05_02.anim,8.252272
+Miyabi,Attack_05_02_End,普攻资源分支 / 收招,InPlace,2.750000,False,Miyabi/InPlace/Attack_05_02_End.anim,0.000000
+Miyabi,Attack_05_02_End,普攻资源分支 / 收招,RootMotion,2.750000,False,Miyabi/RootMotion/Attack_05_02_End.anim,0.427861
+Miyabi,Attack_05_End,普攻资源分支 / 收招,InPlace,2.666667,False,Miyabi/InPlace/Attack_05_End.anim,0.000000
+Miyabi,Attack_05_End,普攻资源分支 / 收招,RootMotion,2.666667,False,Miyabi/RootMotion/Attack_05_End.anim,0.452009
+Miyabi,Attack_06,普攻资源分支,InPlace,0.883333,False,Miyabi/InPlace/Attack_06.anim,0.000000
+Miyabi,Attack_06,普攻资源分支,RootMotion,0.883333,False,Miyabi/RootMotion/Attack_06.anim,2.393590
+Miyabi,Attack_06_02,普攻资源分支,InPlace,1.383333,False,Miyabi/InPlace/Attack_06_02.anim,0.000000
+Miyabi,Attack_06_02,普攻资源分支,RootMotion,1.383333,False,Miyabi/RootMotion/Attack_06_02.anim,3.461495
+Miyabi,Attack_06_02_End,普攻资源分支 / 收招,InPlace,5.483334,False,Miyabi/InPlace/Attack_06_02_End.anim,0.000000
+Miyabi,Attack_06_02_End,普攻资源分支 / 收招,RootMotion,5.483334,False,Miyabi/RootMotion/Attack_06_02_End.anim,0.502016
+Miyabi,Attack_06_End,普攻资源分支 / 收招,InPlace,3.850000,False,Miyabi/InPlace/Attack_06_End.anim,0.000000
+Miyabi,Attack_06_End,普攻资源分支 / 收招,RootMotion,3.850000,False,Miyabi/RootMotion/Attack_06_End.anim,0.032423
+Miyabi,Evade_Back,闪避：Back,InPlace,3.850000,False,Miyabi/InPlace/Evade_Back.anim,0.000000
+Miyabi,Evade_Back,闪避：Back,RootMotion,3.850000,False,Miyabi/RootMotion/Evade_Back.anim,3.399668
+Miyabi,Evade_Back_02,闪避：Back_02,InPlace,4.016667,False,Miyabi/InPlace/Evade_Back_02.anim,0.000000
+Miyabi,Evade_Back_02,闪避：Back_02,RootMotion,4.016667,False,Miyabi/RootMotion/Evade_Back_02.anim,3.930586
+Miyabi,Evade_Back_Left,闪避：Back_Left,InPlace,3.883333,False,Miyabi/InPlace/Evade_Back_Left.anim,0.000000
+Miyabi,Evade_Back_Left,闪避：Back_Left,RootMotion,3.883333,False,Miyabi/RootMotion/Evade_Back_Left.anim,4.440021
+Miyabi,Evade_Back_Right,闪避：Back_Right,InPlace,3.883333,False,Miyabi/InPlace/Evade_Back_Right.anim,0.000000
+Miyabi,Evade_Back_Right,闪避：Back_Right,RootMotion,3.883333,False,Miyabi/RootMotion/Evade_Back_Right.anim,4.479331
+Miyabi,Evade_Front,闪避：Front,InPlace,4.016667,False,Miyabi/InPlace/Evade_Front.anim,0.000000
+Miyabi,Evade_Front,闪避：Front,RootMotion,4.016667,False,Miyabi/RootMotion/Evade_Front.anim,5.723225
+Miyabi,Evade_Front_02,闪避：Front_02,InPlace,4.016667,False,Miyabi/InPlace/Evade_Front_02.anim,0.000000
+Miyabi,Evade_Front_02,闪避：Front_02,RootMotion,4.016667,False,Miyabi/RootMotion/Evade_Front_02.anim,13.561812
+Miyabi,Evade_Front_Left,闪避：Front_Left,InPlace,3.883333,False,Miyabi/InPlace/Evade_Front_Left.anim,0.000000
+Miyabi,Evade_Front_Left,闪避：Front_Left,RootMotion,3.883333,False,Miyabi/RootMotion/Evade_Front_Left.anim,4.479375
+Miyabi,Evade_Front_Right,闪避：Front_Right,InPlace,3.883333,False,Miyabi/InPlace/Evade_Front_Right.anim,0.000000
+Miyabi,Evade_Front_Right,闪避：Front_Right,RootMotion,3.883333,False,Miyabi/RootMotion/Evade_Front_Right.anim,4.518746
+Miyabi,Idle,待机循环,InPlace,4.016667,True,Miyabi/InPlace/Idle.anim,0.000000
+Miyabi,Idle,待机循环,RootMotion,4.016667,True,Miyabi/RootMotion/Idle.anim,0.000052
+Miyabi,Idle_AFK,待机演出,InPlace,11.783334,False,Miyabi/InPlace/Idle_AFK.anim,0.000000
+Miyabi,Idle_AFK,待机演出,RootMotion,11.783334,False,Miyabi/RootMotion/Idle_AFK.anim,0.000088
+Miyabi,Run_End,停跑 / 收步,InPlace,3.683334,False,Miyabi/InPlace/Run_End.anim,0.000000
+Miyabi,Run_End,停跑 / 收步,RootMotion,3.683334,False,Miyabi/RootMotion/Run_End.anim,0.255758
+Miyabi,Run_Loop,跑步循环,InPlace,0.516667,True,Miyabi/InPlace/Run_Loop.anim,0.000000
+Miyabi,Run_Loop,跑步循环,RootMotion,0.516667,True,Miyabi/RootMotion/Run_Loop.anim,4.055334
+Miyabi,Run_Start,起跑,InPlace,1.483333,False,Miyabi/InPlace/Run_Start.anim,0.000000
+Miyabi,Run_Start,起跑,RootMotion,1.483333,False,Miyabi/RootMotion/Run_Start.anim,10.201262
+Miyabi,Run_Start_End,起跑结束,InPlace,3.616667,False,Miyabi/InPlace/Run_Start_End.anim,0.000000
+Miyabi,Run_Start_End,起跑结束,RootMotion,3.616667,False,Miyabi/RootMotion/Run_Start_End.anim,0.253088
+Yeshunguang,Attack_01,普攻资源分支,InPlace,1.350000,False,Yeshunguang/InPlace/Attack_01.anim,0.000000
+Yeshunguang,Attack_01,普攻资源分支,RootMotion,1.350000,False,Yeshunguang/RootMotion/Attack_01.anim,1.967569
+Yeshunguang,Attack_01_End,普攻资源分支 / 收招,InPlace,2.950000,False,Yeshunguang/InPlace/Attack_01_End.anim,0.000000
+Yeshunguang,Attack_01_End,普攻资源分支 / 收招,RootMotion,2.950000,False,Yeshunguang/RootMotion/Attack_01_End.anim,0.104487
+Yeshunguang,Attack_02,普攻资源分支,InPlace,2.850000,False,Yeshunguang/InPlace/Attack_02.anim,0.000000
+Yeshunguang,Attack_02,普攻资源分支,RootMotion,2.850000,False,Yeshunguang/RootMotion/Attack_02.anim,2.265177
+Yeshunguang,Attack_02_End,普攻资源分支 / 收招,InPlace,3.583333,False,Yeshunguang/InPlace/Attack_02_End.anim,0.000000
+Yeshunguang,Attack_02_End,普攻资源分支 / 收招,RootMotion,3.583333,False,Yeshunguang/RootMotion/Attack_02_End.anim,0.726122
+Yeshunguang,Attack_03,普攻资源分支,InPlace,1.683333,False,Yeshunguang/InPlace/Attack_03.anim,0.000000
+Yeshunguang,Attack_03,普攻资源分支,RootMotion,1.683333,False,Yeshunguang/RootMotion/Attack_03.anim,8.886380
+Yeshunguang,Attack_03_End,普攻资源分支 / 收招,InPlace,2.516667,False,Yeshunguang/InPlace/Attack_03_End.anim,0.000000
+Yeshunguang,Attack_03_End,普攻资源分支 / 收招,RootMotion,2.516667,False,Yeshunguang/RootMotion/Attack_03_End.anim,0.238366
+Yeshunguang,Attack_04,普攻资源分支,InPlace,1.683333,False,Yeshunguang/InPlace/Attack_04.anim,0.000000
+Yeshunguang,Attack_04,普攻资源分支,RootMotion,1.683333,False,Yeshunguang/RootMotion/Attack_04.anim,1.178381
+Yeshunguang,Attack_04_End,普攻资源分支 / 收招,InPlace,3.183333,False,Yeshunguang/InPlace/Attack_04_End.anim,0.000000
+Yeshunguang,Attack_04_End,普攻资源分支 / 收招,RootMotion,3.183333,False,Yeshunguang/RootMotion/Attack_04_End.anim,0.223592
+Yeshunguang,Attack_05,普攻资源分支,InPlace,2.516667,False,Yeshunguang/InPlace/Attack_05.anim,0.000000
+Yeshunguang,Attack_05,普攻资源分支,RootMotion,2.516667,False,Yeshunguang/RootMotion/Attack_05.anim,8.479871
+Yeshunguang,Attack_05_End,普攻资源分支 / 收招,InPlace,3.683334,False,Yeshunguang/InPlace/Attack_05_End.anim,0.000000
+Yeshunguang,Attack_05_End,普攻资源分支 / 收招,RootMotion,3.683334,False,Yeshunguang/RootMotion/Attack_05_End.anim,0.167145
+Yeshunguang,Evade_Back_01,闪避：Back_01,InPlace,3.850000,False,Yeshunguang/InPlace/Evade_Back_01.anim,0.000000
+Yeshunguang,Evade_Back_01,闪避：Back_01,RootMotion,3.850000,False,Yeshunguang/RootMotion/Evade_Back_01.anim,4.091830
+Yeshunguang,Evade_Front_01,闪避：Front_01,InPlace,5.483334,False,Yeshunguang/InPlace/Evade_Front_01.anim,0.000000
+Yeshunguang,Evade_Front_01,闪避：Front_01,RootMotion,5.483334,False,Yeshunguang/RootMotion/Evade_Front_01.anim,11.108989
+Yeshunguang,Idle_AFK,待机演出,InPlace,12.816668,False,Yeshunguang/InPlace/Idle_AFK.anim,0.000000
+Yeshunguang,Idle_AFK,待机演出,RootMotion,12.816668,False,Yeshunguang/RootMotion/Idle_AFK.anim,0.000096
+Yeshunguang,Idle_Loop,待机循环,InPlace,4.016667,True,Yeshunguang/InPlace/Idle_Loop.anim,0.000000
+Yeshunguang,Idle_Loop,待机循环,RootMotion,4.016667,True,Yeshunguang/RootMotion/Idle_Loop.anim,0.000130
+Yeshunguang,Run_End,停跑 / 收步,InPlace,4.350000,False,Yeshunguang/InPlace/Run_End.anim,0.000000
+Yeshunguang,Run_End,停跑 / 收步,RootMotion,4.350000,False,Yeshunguang/RootMotion/Run_End.anim,1.819297
+Yeshunguang,Run_Loop,跑步循环,InPlace,0.483333,True,Yeshunguang/InPlace/Run_Loop.anim,0.000000
+Yeshunguang,Run_Loop,跑步循环,RootMotion,0.483333,True,Yeshunguang/RootMotion/Run_Loop.anim,3.997325

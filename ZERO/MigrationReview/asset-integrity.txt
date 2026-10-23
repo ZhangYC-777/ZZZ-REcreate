@@ -1,0 +1,5 @@
+Copied asset files checked: 294
+Content mismatches: 0
+GUID mismatches: 0
+Metadata normalized by the target Unity importer: 1
+Scripts\Character\SecondaryMotionPreview.cs.meta

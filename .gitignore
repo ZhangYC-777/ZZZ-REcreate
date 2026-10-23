@@ -35,9 +35,33 @@
 /ZZZ/sysinfo.txt
 /ZZZ/mono_crash.*
 
+# Unity 2022.3 migration project
+/ZERO/[Ll]ibrary/
+/ZERO/[Tt]emp/
+/ZERO/[Oo]bj/
+/ZERO/[Ll]ogs/
+/ZERO/[Uu]ser[Ss]ettings/
+/ZERO/[Mm]emoryCaptures/
+/ZERO/[Rr]ecordings/
+/ZERO/[Bb]uild/
+/ZERO/[Bb]uilds/
+/ZERO/.vs/
+/ZERO/.vscode/
+/ZERO/.idea/
+/ZERO/*.csproj
+/ZERO/*.sln
+/ZERO/*.slnx
+/ZERO/*.user
+/ZERO/*.userprefs
+/ZERO/sysinfo.txt
+/ZERO/mono_crash.*
+
 # Operating system files
 .DS_Store
 .DS_Store?
 ._*
 Thumbs.db
 Desktop.ini
+
+# Local character-animation extraction workspace and review artifacts
+/AnimationWork/

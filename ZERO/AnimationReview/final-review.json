@@ -1,0 +1,677 @@
+{
+    "clips": [
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_01.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001222534105181694,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_01_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011365785030648113,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001546305837109685,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_02_End.anim",
+            "maxBoneDegrees": 0.1724584698677063,
+            "maxBoneMeters": 0.001793013303540647,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_03.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0013268145266920329,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_03_End.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0013602515682578087,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_04.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0009311824105679989,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_04_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0009581601480022073,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_04_02_End.anim",
+            "maxBoneDegrees": 0.18557482957839967,
+            "maxBoneMeters": 0.0014325270894914866,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_04_End.anim",
+            "maxBoneDegrees": 0.22028686106204987,
+            "maxBoneMeters": 0.0016788339708000422,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_05.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0014659756561741233,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_05_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001332785002887249,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_05_02_End.anim",
+            "maxBoneDegrees": 0.17693865299224854,
+            "maxBoneMeters": 0.0013607863802462817,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_05_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011440558591857553,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_06.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011957724345847965,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_06_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0013487489195540548,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_06_02_End.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0014377227053046227,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Attack_06_End.anim",
+            "maxBoneDegrees": 0.23738813400268556,
+            "maxBoneMeters": 0.0014463652623817325,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Back.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0013278295518830419,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Back_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0012495021801441908,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Back_Left.anim",
+            "maxBoneDegrees": 0.20558415353298188,
+            "maxBoneMeters": 0.0013036782620474697,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Back_Right.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0010169254383072258,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Front.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001453354605473578,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Front_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0013065909733995796,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Front_Left.anim",
+            "maxBoneDegrees": 0.17693865299224854,
+            "maxBoneMeters": 0.0014650787925347686,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Evade_Front_Right.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0011759926564991475,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Idle.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0010774375405162573,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Idle_AFK.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0012593907304108143,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Run_End.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0012763007543981076,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Run_Loop.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0006461180746555328,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Run_Start.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0010028952965512872,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/InPlace/Run_Start_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0012873639352619649,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_01.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0012787276646122337,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_01_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001235737930983305,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0015461634611710907,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_02_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001795488060452044,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_03.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011252999538555742,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_03_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001359909656457603,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_04.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0010112057207152248,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_04_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0009589444380253553,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_04_02_End.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0013709897175431252,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_04_End.anim",
+            "maxBoneDegrees": 0.21670472621917725,
+            "maxBoneMeters": 0.0014559552073478699,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_05.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0014659313019365073,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_05_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0013543531531468034,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_05_02_End.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0012383845169097186,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_05_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011556120589375496,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_06.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0010984368855133653,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_06_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0013488003751263023,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_06_02_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0014976864913478494,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Attack_06_End.anim",
+            "maxBoneDegrees": 0.2093566507101059,
+            "maxBoneMeters": 0.0015836392994970084,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0014440161176025868,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011673875851556659,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back_Left.anim",
+            "maxBoneDegrees": 0.18974557518959046,
+            "maxBoneMeters": 0.0012414760421961547,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back_Right.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001094769686460495,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0015440626302734018,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front_02.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011658868752419949,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front_Left.anim",
+            "maxBoneDegrees": 0.16785874962806703,
+            "maxBoneMeters": 0.0014384827809408308,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front_Right.anim",
+            "maxBoneDegrees": 0.16312937438488007,
+            "maxBoneMeters": 0.0013197507942095399,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Idle.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0011895180214196444,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Idle_AFK.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0014626375632360578,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Run_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0012920158915221692,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Run_Loop.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0008168341591954231,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Run_Start.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0010949911084026099,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Miyabi/RootMotion/Run_Start_End.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.001243972103111446,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_01.anim",
+            "maxBoneDegrees": 0.1724584698677063,
+            "maxBoneMeters": 0.0017259366577491165,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_01_End.anim",
+            "maxBoneDegrees": 0.2130623608827591,
+            "maxBoneMeters": 0.0014996712561696768,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_02.anim",
+            "maxBoneDegrees": 0.2306998074054718,
+            "maxBoneMeters": 0.0019730981439352037,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_02_End.anim",
+            "maxBoneDegrees": 0.1938265860080719,
+            "maxBoneMeters": 0.0014765907544642687,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_03.anim",
+            "maxBoneDegrees": 0.2406626045703888,
+            "maxBoneMeters": 0.0015886151231825352,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_03_End.anim",
+            "maxBoneDegrees": 0.20558415353298188,
+            "maxBoneMeters": 0.001503097708337009,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_04.anim",
+            "maxBoneDegrees": 0.18974557518959046,
+            "maxBoneMeters": 0.002199773443862796,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_04_End.anim",
+            "maxBoneDegrees": 0.2406626045703888,
+            "maxBoneMeters": 0.0019439818570390344,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_05.anim",
+            "maxBoneDegrees": 0.2130623608827591,
+            "maxBoneMeters": 0.001542567042633891,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Attack_05_End.anim",
+            "maxBoneDegrees": 0.2340678572654724,
+            "maxBoneMeters": 0.0019980210345238449,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Evade_Back_01.anim",
+            "maxBoneDegrees": 0.21670472621917725,
+            "maxBoneMeters": 0.001714636106044054,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Evade_Front_01.anim",
+            "maxBoneDegrees": 0.18557482957839967,
+            "maxBoneMeters": 0.0014150686329230667,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Idle_AFK.anim",
+            "maxBoneDegrees": 0.2093566507101059,
+            "maxBoneMeters": 0.0014326466480270029,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Idle_Loop.anim",
+            "maxBoneDegrees": 0.16785874962806703,
+            "maxBoneMeters": 0.0013782765017822385,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Run_End.anim",
+            "maxBoneDegrees": 0.23738813400268556,
+            "maxBoneMeters": 0.002113902010023594,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/InPlace/Run_Loop.anim",
+            "maxBoneDegrees": 0.17693865299224854,
+            "maxBoneMeters": 0.0008972692885436118,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_01.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0018580517498776317,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_01_End.anim",
+            "maxBoneDegrees": 0.18557482957839967,
+            "maxBoneMeters": 0.0015041687292978168,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_02.anim",
+            "maxBoneDegrees": 0.22028686106204987,
+            "maxBoneMeters": 0.0019710299093276264,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_02_End.anim",
+            "maxBoneDegrees": 0.20174111425876618,
+            "maxBoneMeters": 0.0014921827241778374,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_03.anim",
+            "maxBoneDegrees": 0.2340678572654724,
+            "maxBoneMeters": 0.0018258513882756234,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_03_End.anim",
+            "maxBoneDegrees": 0.17693865299224854,
+            "maxBoneMeters": 0.001545819453895092,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_04.anim",
+            "maxBoneDegrees": 0.1724584698677063,
+            "maxBoneMeters": 0.002199446316808462,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_04_End.anim",
+            "maxBoneDegrees": 0.2272818237543106,
+            "maxBoneMeters": 0.0019437045557424427,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_05.anim",
+            "maxBoneDegrees": 0.18974557518959046,
+            "maxBoneMeters": 0.0015378111274912954,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_05_End.anim",
+            "maxBoneDegrees": 0.2340678572654724,
+            "maxBoneMeters": 0.0022149798460304739,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Evade_Back_01.anim",
+            "maxBoneDegrees": 0.18974557518959046,
+            "maxBoneMeters": 0.001637879409827292,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Evade_Front_01.anim",
+            "maxBoneDegrees": 0.18557482957839967,
+            "maxBoneMeters": 0.0014066853327676654,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Idle_AFK.anim",
+            "maxBoneDegrees": 0.20174111425876618,
+            "maxBoneMeters": 0.0016753309173509479,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Idle_Loop.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0016681650886312128,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Run_End.anim",
+            "maxBoneDegrees": 0.22381167113780976,
+            "maxBoneMeters": 0.0021147720981389286,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        },
+        {
+            "path": "Assets/Animations/Characters/Yeshunguang/RootMotion/Run_Loop.anim",
+            "maxBoneDegrees": 0.0,
+            "maxBoneMeters": 0.0008967079920694232,
+            "human": true,
+            "loopSeamDegrees": 0.0
+        }
+    ],
+    "errors": []
+}

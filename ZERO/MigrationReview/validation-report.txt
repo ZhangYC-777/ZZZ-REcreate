@@ -1,0 +1,19 @@
+Unity: 2022.3.62f1c1
+Scene: Assets/Scenes/CharacterPreview.unity
+Humanoid avatar valid: True
+Spring bones: 339
+Body colliders: 13
+Spring endpoint/manager references valid: True
+Missing character scripts: 0
+Materials: 24; invalid shaders: 0
+Cinemachine: 2.10.7
+URP: 14.0.12
+20-second / 1200-step validation at 60 Hz
+Bones: 339
+Finite particles: True
+Maximum local rotation from rest: 7.042 degrees
+Maximum particle segment length error: 0.021865 m (q_15_0, frame 408)
+Maximum endpoint motion: 0.6551 m (左td_19_1)
+Maximum mesh drift after settling: 0.0134 m
+PASS: True
+MIGRATION PASS: True

@@ -1,0 +1,482 @@
+[
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_01.anim",
+    "bytes": 1421278,
+    "sha256": "08581b2cfe535580e69e3b2bfb1f8c18fc7657da5d73afc015f71a213a997c3a"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_01_End.anim",
+    "bytes": 3314809,
+    "sha256": "5ca0732c07a3b3acf035bf043f8bd3805bfe0777e1df8f8d7765c3d13356dc60"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_02.anim",
+    "bytes": 1375695,
+    "sha256": "ded54b32b5f9a6332e8dc673bffa2c1e072007e33d9a39a8f8438b445e65ed16"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_02_End.anim",
+    "bytes": 3358063,
+    "sha256": "2e4962fd6895efc05a34d729e4d021d29c6be2de887f7b2dc648e343f7f5a356"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_03.anim",
+    "bytes": 2269965,
+    "sha256": "5b27b41d85012eac722ec6ef74380754b706b4e89109c9fb2716d4acc8569cb1"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_03_End.anim",
+    "bytes": 2584607,
+    "sha256": "a0c5fb2bf8cb0bc25cbf16b9fe81736652f658f0ef7a43c2753f0ce0ca11653d"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_04.anim",
+    "bytes": 1365287,
+    "sha256": "6124fddb0a2689e67adc68addecb757d61c4c12f1fb929d684b6e290b40b4fb0"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_04_02.anim",
+    "bytes": 1734775,
+    "sha256": "b9386a2be0ab74e78d690a0f6aa5af25576b61783c6c552a23d87f48fc4738e9"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_04_02_End.anim",
+    "bytes": 2379198,
+    "sha256": "af70e03b38ec5baef99f815c02a63fafdbeddf302a9ad76cfa2ad87a18acd0d5"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_04_End.anim",
+    "bytes": 2383305,
+    "sha256": "6db7198a706c5ba64e8b7d9888cac7cfa3a39c9b12866be2bc7aad43cf376f21"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_05.anim",
+    "bytes": 2427408,
+    "sha256": "bb4fd15b605c434009f5871c0f32038c1342b4b047e433b5a31b579be9fdbdac"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_05_02.anim",
+    "bytes": 4198360,
+    "sha256": "1638ed5ddef6c7158a076ab0e5d34ddb68ce22bd87866fe73019dd1e91812ecb"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_05_02_End.anim",
+    "bytes": 2516496,
+    "sha256": "5d48e6951b6cbebf4079d70334b91d447798a4a8a816de36e29e50c96b6e4c6b"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_05_End.anim",
+    "bytes": 2386453,
+    "sha256": "a417a2c733fdd5f8e08dd008af8cecc4b98febbc227c58be62283b700f2caf07"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_06.anim",
+    "bytes": 1456591,
+    "sha256": "bb4a4b55c180caeda57688603c1a494370087e645be92c2c072ff6cc4d206d78"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_06_02.anim",
+    "bytes": 2805814,
+    "sha256": "98ab21b7d257cd48d6d28d4eb9aaa83a54722416ab8eb056c7f8937857610dc7"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_06_02_End.anim",
+    "bytes": 4180806,
+    "sha256": "3b014785777ecf62b03a0633b49ed4f76e8e8dc34e261a229a2384ba35955189"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Attack_06_End.anim",
+    "bytes": 3020433,
+    "sha256": "513df553f449daf69310fa40f361d5e60ab7469b158cbaeeba137fdacb2f71f0"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Back.anim",
+    "bytes": 2764924,
+    "sha256": "e0b05e8a27508ebd020240b0f921194a97be9404b1327dec002363436cf94a8f"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Back_02.anim",
+    "bytes": 1954820,
+    "sha256": "35c19f16ce31e6f3d50b9ef6c320e8853e2ce006cde1deab3e7849abb6b87fe1"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Back_Left.anim",
+    "bytes": 2730907,
+    "sha256": "7d440f0c3e31b4d4d058e2eb3b638b6456e2e1003e1b524b22d7f242cf3535cf"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Back_Right.anim",
+    "bytes": 3366620,
+    "sha256": "c6cb40bf4d63bfb207e8eee24f69a3fadcb24296b3d728c1d1841e6197858a07"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Front.anim",
+    "bytes": 3331126,
+    "sha256": "eba85ca0f10a4b285badf6badfd36d7920801d98fccf90b6ebcb2325f9097cf8"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Front_02.anim",
+    "bytes": 3467211,
+    "sha256": "d1cfe727c8f212ba0ebbb3ad4c4b1bb04d973e079262bf3cd270885dbbe8b6c2"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Front_Left.anim",
+    "bytes": 2761356,
+    "sha256": "671b1a2364b40eb73d13c0c8fd8c6c4ed5cfcfb33996708511862367615b49af"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Evade_Front_Right.anim",
+    "bytes": 3324169,
+    "sha256": "09bc4e45ecb03e1ae77ad9d6e0626e9a9959a9ec281c05a405a1d4b7523548f0"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Idle.anim",
+    "bytes": 1015643,
+    "sha256": "4324a20fc505c6125d136c53cef36fb1566803cd840c43b3c65b1eaee1585673"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Idle_AFK.anim",
+    "bytes": 3890526,
+    "sha256": "d21a79fd4114c6561058d6c09d915c41c7432b33aaa1973f9e0bc73fa123f5a5"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Run_End.anim",
+    "bytes": 2047527,
+    "sha256": "02bf3a9b0ead6dc9b92f195f1b46f286cf74ea26b9034b414aab556a86a5b20f"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Run_Loop.anim",
+    "bytes": 1213958,
+    "sha256": "aedaad5fc2cea4f786f78dc037377bd6e4710f7323d1f4a2f3a4cd78c9c19ffa"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Run_Start.anim",
+    "bytes": 3328319,
+    "sha256": "9457740b36fb9d462d046f85bb2a490c5dc078a906cc03987c5e980198b61079"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/InPlace/Run_Start_End.anim",
+    "bytes": 1996487,
+    "sha256": "d9585c8166c9957137a29e3f7fe183bcb6e159c61b90017ff06b72de4e06187b"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_01.anim",
+    "bytes": 1472227,
+    "sha256": "0679e62fb12a88660ddcd585ed5af4a4e84cb0244e7b8dee05f23105796cbe1f"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_01_End.anim",
+    "bytes": 3384266,
+    "sha256": "4bcfc1bd9ad0c128e291195bef8ac571f10652bd072517212c9cd232f364c581"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_02.anim",
+    "bytes": 1423628,
+    "sha256": "49a560ad9491595fc8a984d3ca6a324fd2d9a0b11bccda3c5ae281e97a5d00d2"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_02_End.anim",
+    "bytes": 3421784,
+    "sha256": "6f5201b12d92c4f84862f6a82a5937e8fcc08791ea5c23cf29fc36670433d695"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_03.anim",
+    "bytes": 2326696,
+    "sha256": "e3ad64aa67fdd2c6fea75614be2f5da9ddf0edefe2a02075308cc61187523adc"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_03_End.anim",
+    "bytes": 2641510,
+    "sha256": "78191a0cb08e575e4372c54ae7afc2a91ebf8c13e04c6a27e11fa311d6ce1d69"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_04.anim",
+    "bytes": 1414254,
+    "sha256": "5ff0a317cd080b00532de18a929ce86936ab448f749104f7da04ddc174282cef"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_04_02.anim",
+    "bytes": 1793894,
+    "sha256": "2b325b518ff3e436e9321825efd102e1f5b635d9fdf06235d3f6e3c5856e09dc"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_04_02_End.anim",
+    "bytes": 2433856,
+    "sha256": "d40485e243db69da9bf0210ed8512dd7c54bccccac98a1748bd82c310604f58e"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_04_End.anim",
+    "bytes": 2438927,
+    "sha256": "15341aad85f29e2ceef23dd3c4d924e061a313ba5f7fedf4fde394c90c576d7b"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_05.anim",
+    "bytes": 2499035,
+    "sha256": "285731dae49730d7ee67ebf8692266826c8ce341be5c2cec9deab2b5a7033f9a"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_05_02.anim",
+    "bytes": 4313735,
+    "sha256": "09d0231dc715ae03667894ede0aa11689464361b2960d281282f2db600af9d0b"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_05_02_End.anim",
+    "bytes": 2574601,
+    "sha256": "0579734e7e7870af8f72f9cf1c6ee961796a7ac8d89f8275115dd0ce31df6e73"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_05_End.anim",
+    "bytes": 2442868,
+    "sha256": "55acae4f5f91d72971d83861fd7f6738d45508b6c4bd938290bffcd21104f8c9"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_06.anim",
+    "bytes": 1505438,
+    "sha256": "c96ba08b689b2d7f3b2b0a5012660487102c021bd041d8deebbb8f7c46054333"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_06_02.anim",
+    "bytes": 2889851,
+    "sha256": "39a8b2c8c4ff07db2b2814c0c69aabf5b2d7709141936cf6c022c5c3b0e0a695"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_06_02_End.anim",
+    "bytes": 4252333,
+    "sha256": "bc65498d3c130f4aea795cd85350febc2729888a4f2ab090120dd8d0172a94d4"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Attack_06_End.anim",
+    "bytes": 3072576,
+    "sha256": "d34b92a58142a3af8862790491959ba22604e6786e1310f0d6920c235eb96215"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back.anim",
+    "bytes": 2837297,
+    "sha256": "0f22a97317a4c77677e7c05cca0af8e062a8455ad5ca9ea9ffea6d85e79e0fbb"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back_02.anim",
+    "bytes": 2007897,
+    "sha256": "85f4efc3e413f13c1df40491645f8fca3943fbe3b8ff846375109c386b5410e3"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back_Left.anim",
+    "bytes": 2809962,
+    "sha256": "be362092c022edefbaca95115000014b966219626a82994b5216256dc3e89461"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Back_Right.anim",
+    "bytes": 3443965,
+    "sha256": "6afc349aa40b0fcde053a2c2dbb8253490ad4b4644ca7fa0d8525ea735a9667c"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front.anim",
+    "bytes": 3401429,
+    "sha256": "ee0592fb319ad12648db9179dd75b688e98a607c8b4281fac78c8bdaf7d863aa"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front_02.anim",
+    "bytes": 3543982,
+    "sha256": "422144bf2b5c03b8fe0066d2409898cba04b8268f98747ef8188e25612f43177"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front_Left.anim",
+    "bytes": 2837319,
+    "sha256": "97ebd4857ef72d111cdedc7d98d508c0f0b71f5a0175f450399d77989d15d0e4"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Evade_Front_Right.anim",
+    "bytes": 3402258,
+    "sha256": "93a730d7f02fa777b8ec1d2bbe0c6aa77012877e979725ff388a902dd7c9b873"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Idle.anim",
+    "bytes": 1050081,
+    "sha256": "023d0487b5f913887a7b5289cf3c2414e7e7e5fed74a7e7c747ea7d69578d36f"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Idle_AFK.anim",
+    "bytes": 3967795,
+    "sha256": "427ed7d7cdf9dad316fb8a512e62507c360fbc43fad3cd9252aa2fd31f33ce04"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Run_End.anim",
+    "bytes": 2099020,
+    "sha256": "6aa44b6bd97e6b8b83de3914d15d6d8f5d0ab4692d1f55e3012b8484d1d0e735"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Run_Loop.anim",
+    "bytes": 1259803,
+    "sha256": "10e75e024398f3ab2c1a0e7442303953c3b24be7eccee16f155385fe0ac40eb7"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Run_Start.anim",
+    "bytes": 3403890,
+    "sha256": "8e960ac36b36020638a68473aeb99b3094105d548f67165ee58374c60ab7fe15"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Miyabi/RootMotion/Run_Start_End.anim",
+    "bytes": 2044458,
+    "sha256": "ef2cf33544ae608a2a44eeb92d3c128ca1a346ce1a67d6332b1e05041ef82324"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_01.anim",
+    "bytes": 3073666,
+    "sha256": "b986459e1b90e38277057b18fc3e992df63f5883334e6329afad08960a09176c"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_01_End.anim",
+    "bytes": 5461820,
+    "sha256": "28580d4c0bd1ce9a031ef43050c71324cd6750479690795dbdf5e4fd57ac6282"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_02.anim",
+    "bytes": 5954191,
+    "sha256": "dee17d09031b86b752030f115dd2b064e91e25438b19677701ee798531bd2d4c"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_02_End.anim",
+    "bytes": 5954581,
+    "sha256": "9e6522e66f113c0023e37ad9fcbcfd4f8017f82135731f751530511d52770514"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_03.anim",
+    "bytes": 3910491,
+    "sha256": "09eb35a35e81328df71b8e265fdfd88d3b859d3abcb529db2fc85a4689f64449"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_03_End.anim",
+    "bytes": 4470332,
+    "sha256": "489d64f9cbdfde4c1d0308d9739cc592d0df29a520bf0c15b6375b757412e89e"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_04.anim",
+    "bytes": 3079949,
+    "sha256": "708bb5441a71f1a74e49f2c91aaddb89173db485fbed9b29e37f8251fe740515"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_04_End.anim",
+    "bytes": 5008217,
+    "sha256": "a5d1d7096e11974d18f7093003d2b418de4a2c714dead4993e13ccb36e4dafd3"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_05.anim",
+    "bytes": 5979408,
+    "sha256": "0b1eebc6e17b6c39946761f51fd7345561700627ffb9608553719455b5d2dfb2"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Attack_05_End.anim",
+    "bytes": 6388581,
+    "sha256": "c17aaef0867a0fcd595f0a40a022dacfa5475b2bee1e1fcee985c584ea0488d3"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Evade_Back_01.anim",
+    "bytes": 7653517,
+    "sha256": "a9b7b30feb32c2636afc13f837fa17b7e33940f4bd850337e789709f6063b56a"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Evade_Front_01.anim",
+    "bytes": 7965586,
+    "sha256": "1427a501c1c38c452a1b8ad9ad94c822b86c1b653f8105147f2ba1ec4c6fd3c5"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Idle_AFK.anim",
+    "bytes": 10772888,
+    "sha256": "b771b5d312cbcefc1f690723836215f42828683871a1659be18d23d4917f11e5"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Idle_Loop.anim",
+    "bytes": 1602072,
+    "sha256": "8c9f79da48d857e66001105fec95ac37c218155cab6c0d887976bcd7a98368ce"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Run_End.anim",
+    "bytes": 8308383,
+    "sha256": "8e4cb48470142fb5dff751e2e029ff4b9f0825e48f5fb062487382fa5fb90906"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/InPlace/Run_Loop.anim",
+    "bytes": 1481691,
+    "sha256": "de2f20919723eeddbec868c9c8424be8b05580d306236c16a7425f332d546735"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_01.anim",
+    "bytes": 3154555,
+    "sha256": "41090bd4d6ea433c59060b5a4f74ced83bf3d53b831223dd9ecbdae0c4fbc153"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_01_End.anim",
+    "bytes": 5582082,
+    "sha256": "228d8eccdd9822e02872f250f4b72b7ac30f25f02ac6539d6ea3a612e7c1c9a5"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_02.anim",
+    "bytes": 6099036,
+    "sha256": "47046b6d1956a40ca95b299a20164c962bbdeec8af9f7124ed67ac2667e4ff14"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_02_End.anim",
+    "bytes": 6105864,
+    "sha256": "42c8f8c9845a765becb0f98fb94634f4073e194250f973a1145cbcf3d605f2ed"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_03.anim",
+    "bytes": 4000565,
+    "sha256": "dac21021f64f4ecb3836ef9cc7d0bf263e3de7face87a3453d5df8c158661849"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_03_End.anim",
+    "bytes": 4580493,
+    "sha256": "20b9d51134a609100e1d2fae59b553ce23c4598c25d7f2326f47f26e5166f0c7"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_04.anim",
+    "bytes": 3179588,
+    "sha256": "43cc5c5fe5b4b1e9ebce0a88288299d86902776a5b052fe2393156ba7b8d71c2"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_04_End.anim",
+    "bytes": 5129376,
+    "sha256": "43aaabe45d1607f302272346de20ad2fb698178597188548658037dc5b194a47"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_05.anim",
+    "bytes": 6117191,
+    "sha256": "8e0a552e28232e0f3b4fa324e243309e56ad5ac4d9395131d6a2b96319733015"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Attack_05_End.anim",
+    "bytes": 6541584,
+    "sha256": "eb1f0786f8ef3ca8653f25514a288188d10ca510fd586a5ab471aacaaa155699"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Evade_Back_01.anim",
+    "bytes": 7800520,
+    "sha256": "30ed05c0484dd75607c04239fe1c25aa51ada52f435413d0fab498dfd0dfd434"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Evade_Front_01.anim",
+    "bytes": 8090737,
+    "sha256": "ff24273184ba4fde55b1aaaed248871fd53be144111846e165fe3f1bd88919b8"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Idle_AFK.anim",
+    "bytes": 10946137,
+    "sha256": "2a7072daa78d12d06f1f54275c5b5afc78df05ca4b00ac94088be4aa0c95267b"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Idle_Loop.anim",
+    "bytes": 1650955,
+    "sha256": "21796d56556d7158090c1046551dee0c1512a2f830259a6dce78c20f3c3d6f4d"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Run_End.anim",
+    "bytes": 8485809,
+    "sha256": "ba59abe5dce6854d0cba8b30ca896b1ff303077eae2800b927397fa0e293465a"
+  },
+  {
+    "path": "ZERO/Assets/Animations/Characters/Yeshunguang/RootMotion/Run_Loop.anim",
+    "bytes": 1527168,
+    "sha256": "6382c6278a1b8c89a4daef88a8a4a7a48b8f07c487e7611d69c1a5e65dfa5a4e"
+  }
+]

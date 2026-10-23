@@ -1,0 +1,4 @@
+Actual Play mode: True
+Preview motion enabled: True
+Finite spring endpoints: 339/339
+Time in Play mode: 37.5 s
