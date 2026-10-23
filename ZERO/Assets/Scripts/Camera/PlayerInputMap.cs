@@ -35,6 +35,15 @@ public partial class @PlayerInputMap: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Moving"",
+                    ""type"": ""Value"",
+                    ""id"": ""5a4d5146-31e8-43c4-a7ff-cd53b1e4a983"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -48,6 +57,61 @@ public partial class @PlayerInputMap: IInputActionCollection2, IDisposable
                     ""action"": ""MouseScroll"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""27088901-7465-4cdc-ac43-7da6988b31c4"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Moving"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""3cd5c894-349e-4384-a685-49ae29175264"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Moving"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""d8812c87-69d8-417b-9aa5-13554b76c09f"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Moving"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""e7089b1d-e2e5-40b7-aa9f-a1bbc31efd44"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Moving"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""87419dbc-7812-42c2-86d0-c2aa110b7c35"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Moving"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -57,6 +121,7 @@ public partial class @PlayerInputMap: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_MouseScroll = m_Player.FindAction("MouseScroll", throwIfNotFound: true);
+        m_Player_Moving = m_Player.FindAction("Moving", throwIfNotFound: true);
     }
 
     ~@PlayerInputMap()
@@ -124,11 +189,13 @@ public partial class @PlayerInputMap: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_MouseScroll;
+    private readonly InputAction m_Player_Moving;
     public struct PlayerActions
     {
         private @PlayerInputMap m_Wrapper;
         public PlayerActions(@PlayerInputMap wrapper) { m_Wrapper = wrapper; }
         public InputAction @MouseScroll => m_Wrapper.m_Player_MouseScroll;
+        public InputAction @Moving => m_Wrapper.m_Player_Moving;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -141,6 +208,9 @@ public partial class @PlayerInputMap: IInputActionCollection2, IDisposable
             @MouseScroll.started += instance.OnMouseScroll;
             @MouseScroll.performed += instance.OnMouseScroll;
             @MouseScroll.canceled += instance.OnMouseScroll;
+            @Moving.started += instance.OnMoving;
+            @Moving.performed += instance.OnMoving;
+            @Moving.canceled += instance.OnMoving;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -148,6 +218,9 @@ public partial class @PlayerInputMap: IInputActionCollection2, IDisposable
             @MouseScroll.started -= instance.OnMouseScroll;
             @MouseScroll.performed -= instance.OnMouseScroll;
             @MouseScroll.canceled -= instance.OnMouseScroll;
+            @Moving.started -= instance.OnMoving;
+            @Moving.performed -= instance.OnMoving;
+            @Moving.canceled -= instance.OnMoving;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -168,5 +241,6 @@ public partial class @PlayerInputMap: IInputActionCollection2, IDisposable
     public interface IPlayerActions
     {
         void OnMouseScroll(InputAction.CallbackContext context);
+        void OnMoving(InputAction.CallbackContext context);
     }
 }
