@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class PlayerRunningState : PlayerMovementState
 {
-    
+    public PlayerRunningState(MovementStateMachines movementStateMachines) : base(movementStateMachines)
+    {
+        
+    }
 }

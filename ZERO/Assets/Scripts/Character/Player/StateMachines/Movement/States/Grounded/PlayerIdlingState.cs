@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class PlayerIdlingState : PlayerMovementState
 {
-    
+    public PlayerIdlingState(MovementStateMachines movementStateMachines) : base(movementStateMachines)
+    {
+        
+    }
 }

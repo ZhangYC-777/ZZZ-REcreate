@@ -6,10 +6,13 @@ public class PlayerMoving : MonoBehaviour
 {
     public MovementStateMachines movementStateMachines;
     public PlayerInput playerInput{get; private set;}
+    public Rigidbody playerRigidbody{get; private set;}
+
     void Awake()
     {
-        movementStateMachines = new MovementStateMachines();
+        movementStateMachines = new MovementStateMachines(this);
         playerInput = GetComponent<PlayerInput>();
+        playerRigidbody = GetComponent<Rigidbody>();
     }
     void Start()
     {

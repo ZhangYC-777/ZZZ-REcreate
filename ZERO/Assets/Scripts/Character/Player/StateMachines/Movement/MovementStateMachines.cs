@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class MovementStateMachines : StateMachine
 {
+    public PlayerMoving PlayerMoving { get; }
    public PlayerIdlingState idlingState { get;  }
    public PlayerRunningState runningState { get;  }
-   public MovementStateMachines()
+   public MovementStateMachines(PlayerMoving playerMoving)
    {
-       idlingState = new PlayerIdlingState();
-       runningState = new PlayerRunningState();
+        PlayerMoving = playerMoving;
+       idlingState = new PlayerIdlingState(this);
+       runningState = new PlayerRunningState(this);
    }
 }
