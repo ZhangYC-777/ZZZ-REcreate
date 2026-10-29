@@ -59,7 +59,12 @@ public class PlayerMovementState : IState
     }
     public void RotatePlayer(Vector3 Direction)
     {
-        
+        float DirectionAngle = Mathf.Atan2(Direction.x, Direction.z) * Mathf.Rad2Deg;
+        if(DirectionAngle < 0f)
+        {
+            DirectionAngle += 360f;
+        }
+        DirectionAngle += MovementStateMachine.PlayerMoving.cameraTransform.transform.eulerAngles.y;
     }
     public Vector3 GetMoveDirection()
     {
