@@ -57,6 +57,10 @@ public class PlayerMovementState : IState
         Vector3 currentVelocity = GetPlayerHorizontalSpeed();
         MovementStateMachine.PlayerMoving.playerRigidbody.AddForce(moveDirection * moveSpeed - currentVelocity, ForceMode.VelocityChange);
     }
+    public void RotatePlayer(Vector3 Direction)
+    {
+        
+    }
     public Vector3 GetMoveDirection()
     {
         //获取玩家的输入方向
