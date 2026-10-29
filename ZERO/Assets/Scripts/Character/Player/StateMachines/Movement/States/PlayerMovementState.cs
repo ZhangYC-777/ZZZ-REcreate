@@ -7,13 +7,13 @@ public class PlayerMovementState : IState
     //声明玩家的输入
     public Vector2 movementInput;
     //声明玩家的基本速度
-    public float baseSpeed = 5f;
+    public float baseSpeed = 3f;
     //声明归一化标准
     public float speedModifier = 1f;
-    protected MovementStateMachines MovementStateMachines;
+    protected MovementStateMachines MovementStateMachine;
     public PlayerMovementState(MovementStateMachines movementStateMachines)
     {
-        MovementStateMachines = movementStateMachines;
+        MovementStateMachine = movementStateMachines;
     }
     public virtual void Enter()
     {
@@ -43,7 +43,7 @@ public class PlayerMovementState : IState
     }
     public void GetMovementInput()
     {
-        movementInput = MovementStateMachines.PlayerMoving.playerInput.playerActions.Moving.ReadValue<Vector2>();
+        movementInput = MovementStateMachine.PlayerMoving.playerInput.playerActions.Moving.ReadValue<Vector2>();
     }
     public void Move()
     {
@@ -54,6 +54,8 @@ public class PlayerMovementState : IState
         //获取移动方向
         Vector3 moveDirection = GetMoveDirection();
         float moveSpeed = GetSpeed();
+        Vector3 currentVelocity = GetPlayerHorizontalSpeed();
+        MovementStateMachine.PlayerMoving.playerRigidbody.AddForce(moveDirection * moveSpeed - currentVelocity, ForceMode.VelocityChange);
     }
     public Vector3 GetMoveDirection()
     {
@@ -64,5 +66,13 @@ public class PlayerMovementState : IState
     {
         //计算移动速度
         return baseSpeed * speedModifier;
+    }
+    //声明一个方法去控制速度
+    public Vector3 GetPlayerHorizontalSpeed()
+    {
+        Vector3 horizontalVelocity = MovementStateMachine.PlayerMoving.playerRigidbody.velocity;
+        horizontalVelocity.y = 0f;
+        return horizontalVelocity;
+        
     }
 }
