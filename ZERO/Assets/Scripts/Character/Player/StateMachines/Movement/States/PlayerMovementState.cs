@@ -11,6 +11,10 @@ public class PlayerMovementState : IState
     //声明归一化标准
     public float speedModifier = 1f;
     protected MovementStateMachines MovementStateMachine;
+    protected Vector3 currentTargetRotation;
+    protected Vector3 timeToreachTargetRotation;
+    protected Vector3 dampedTargetRotationCurrentVelocity;
+    protected Vector3 damedTargetRotationPassedTime;
     public PlayerMovementState(MovementStateMachines movementStateMachines)
     {
         MovementStateMachine = movementStateMachines;
@@ -57,14 +61,33 @@ public class PlayerMovementState : IState
         Vector3 currentVelocity = GetPlayerHorizontalSpeed();
         MovementStateMachine.PlayerMoving.playerRigidbody.AddForce(moveDirection * moveSpeed - currentVelocity, ForceMode.VelocityChange);
     }
-    public void RotatePlayer(Vector3 Direction)
+    public float RotatePlayer(Vector3 Direction)
+    {
+        //获取输入方向的角度
+        float DirectionAngle = GetDirectionAngle(Direction);
+        //加上相机的偏转角度
+        DirectionAngle = AddCameraRotationToAngle(DirectionAngle);
+        return DirectionAngle;
+    }
+    //根据输入方向计算角度
+    public float GetDirectionAngle(Vector3 Direction)
     {
         float DirectionAngle = Mathf.Atan2(Direction.x, Direction.z) * Mathf.Rad2Deg;
         if(DirectionAngle < 0f)
         {
             DirectionAngle += 360f;
         }
+        return DirectionAngle;
+    }
+    //在输入角度上加入相机的偏转
+    public float AddCameraRotationToAngle(float DirectionAngle)
+    {
         DirectionAngle += MovementStateMachine.PlayerMoving.cameraTransform.transform.eulerAngles.y;
+        if(DirectionAngle > 360f)
+        {
+            DirectionAngle -= 360f;
+        }
+        return DirectionAngle;
     }
     public Vector3 GetMoveDirection()
     {
