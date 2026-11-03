@@ -20,6 +20,7 @@ public class PlayerMovementState : IState
         MovementStateMachine = movementStateMachines;
         Initialize();
     }
+    //初始化转身所用时间
     public void Initialize()
     {
         timeToreachTargetRotation.y = 0.14f;
@@ -62,10 +63,13 @@ public class PlayerMovementState : IState
         }
         //获取移动方向
         Vector3 moveDirection = GetMoveDirection();
+        //得到目标旋转角度
         float targetRotationYAngle = RotatePlayer(moveDirection);
+        //将角度转换成方向
         Vector3 targetRotationDirection = GetTargetRotationDirection(targetRotationYAngle);
         float moveSpeed = GetSpeed();
         Vector3 currentVelocity = GetPlayerHorizontalSpeed();
+        //实际移动
         MovementStateMachine.PlayerMoving.playerRigidbody.AddForce(targetRotationDirection * moveSpeed - currentVelocity, ForceMode.VelocityChange);
     }
     public Vector3 GetTargetRotationDirection(float targetRotationYAngle)
@@ -74,11 +78,13 @@ public class PlayerMovementState : IState
     }
     public float RotatePlayer(Vector3 Direction)
     {
-        //获取输入方向的角度
+        //获取最终输入方向的角度
         float DirectionAngle = UpdateTargetRotation(Direction);
+        //旋转玩家朝向目标方向
         RotateTowardsTargetRatation();
         return DirectionAngle;
     }
+    //实时获取玩家的输入方向角度，并将其存储在currentTargetRotation中
     public float UpdateTargetRotation(Vector3 Direction, bool shouldConsiderCameraRotation = true)
     {
         float DirectionAngle = GetDirectionAngle(Direction);
@@ -97,6 +103,7 @@ public class PlayerMovementState : IState
     public void UpdateTargetRotationData(float DirectionAngle)
     {
         currentTargetRotation.y = DirectionAngle;
+        //角度更新后 旋转时间需要重置
         damedTargetRotationPassedTime.y = 0f;
     }
     //根据输入方向计算角度
@@ -137,6 +144,7 @@ public class PlayerMovementState : IState
         return horizontalVelocity;
         
     }
+    //旋转玩家朝向目标方向
     public void RotateTowardsTargetRatation()
     {
         float currentYAngle = MovementStateMachine.PlayerMoving.playerRigidbody.rotation.eulerAngles.y;
