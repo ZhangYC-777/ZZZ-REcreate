@@ -28,11 +28,15 @@ public class PlayerMovementState : IState
     public virtual void Enter()
     {
         Debug.Log("Enter " + this.GetType().Name);
+        //添加玩家按键输入的监听
+        AddInputActionsCallbacks();
+
     }
 
     public virtual void Exit()
     {
-        
+        //移除玩家按键输入的监听
+        RemoveInputActionsCallbacks();
     }
 
     public virtual void HandleInput()
@@ -156,5 +160,19 @@ public class PlayerMovementState : IState
         damedTargetRotationPassedTime.y += Time.deltaTime;
         Quaternion targetRotation = Quaternion.Euler(0f, smoothDampYAngle, 0f);
         MovementStateMachine.PlayerMoving.playerRigidbody.MoveRotation(targetRotation);
+    }
+    //声明一个方法让玩家的速度为0
+    public void ResetPlayerSpeed()
+    {
+        MovementStateMachine.PlayerMoving.playerRigidbody.velocity = Vector3.zero;
+    }
+    //声明两个函数添加和移除玩家按键输入的监听
+    public virtual void AddInputActionsCallbacks()
+    {
+        
+    }
+    public  virtual void RemoveInputActionsCallbacks()
+    {
+        
     }
 }
