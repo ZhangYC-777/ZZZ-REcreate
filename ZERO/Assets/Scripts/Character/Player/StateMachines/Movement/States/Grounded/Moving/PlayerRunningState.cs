@@ -12,7 +12,8 @@ public class PlayerRunningState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
-        speedModifier = 1f;
+        MovementStateMachine.ReusableData.SpeedModifier =
+            MovementStateMachine.PlayerMoving.Data?.playerGroundedData?.playerRunnData?.speedModifier ?? 1f;
     }
     //重写基类的监听逻辑 按钮取消按键时暂时改变状态为漫步
     

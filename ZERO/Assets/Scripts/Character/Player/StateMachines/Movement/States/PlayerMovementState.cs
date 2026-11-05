@@ -4,17 +4,7 @@ using UnityEngine;
 
 public class PlayerMovementState : IState
 {
-    //声明玩家的输入
-    public Vector2 movementInput;
-    //声明玩家的基本速度
-    public float baseSpeed = 3f;
-    //声明归一化标准
-    public float speedModifier = 1f;
     protected MovementStateMachines MovementStateMachine;
-    protected Vector3 currentTargetRotation;
-    protected Vector3 timeToreachTargetRotation;
-    protected Vector3 dampedTargetRotationCurrentVelocity;
-    protected Vector3 damedTargetRotationPassedTime;
     public PlayerMovementState(MovementStateMachines movementStateMachines)
     {
         MovementStateMachine = movementStateMachines;
@@ -23,7 +13,9 @@ public class PlayerMovementState : IState
     //初始化转身所用时间
     public void Initialize()
     {
-        timeToreachTargetRotation.y = 0.14f;
+        MovementStateMachine.ReusableData.TimeToReachTargetRotation =
+            MovementStateMachine.PlayerMoving.Data?.playerGroundedData?.playerRotationData?.targetRotationReachTime
+            ?? new Vector3(0f, 0.14f, 0f);
     }
     public virtual void Enter()
     {
@@ -57,11 +49,11 @@ public class PlayerMovementState : IState
     }
     public void GetMovementInput()
     {
-        movementInput = MovementStateMachine.PlayerMoving.playerInput.playerActions.Moving.ReadValue<Vector2>();
+        MovementStateMachine.ReusableData.MovementInput = MovementStateMachine.PlayerMoving.playerInput.playerActions.Moving.ReadValue<Vector2>();
     }
     public void Move()
     {
-        if(movementInput == Vector2.zero)
+        if(MovementStateMachine.ReusableData.MovementInput == Vector2.zero)
         {
             return;
         }
@@ -88,7 +80,7 @@ public class PlayerMovementState : IState
         RotateTowardsTargetRatation();
         return DirectionAngle;
     }
-    //实时获取玩家的输入方向角度，并将其存储在currentTargetRotation中
+    //实时获取玩家的输入方向角度，并将其存储在CurrentTargetRotation中
     public float UpdateTargetRotation(Vector3 Direction, bool shouldConsiderCameraRotation = true)
     {
         float DirectionAngle = GetDirectionAngle(Direction);
@@ -97,7 +89,7 @@ public class PlayerMovementState : IState
         {
             DirectionAngle = AddCameraRotationToAngle(DirectionAngle);
         }
-        if(DirectionAngle != currentTargetRotation.y)
+        if(DirectionAngle != MovementStateMachine.ReusableData.CurrentTargetRotation.y)
         {
             UpdateTargetRotationData(DirectionAngle);
         }
@@ -106,9 +98,9 @@ public class PlayerMovementState : IState
     }
     public void UpdateTargetRotationData(float DirectionAngle)
     {
-        currentTargetRotation.y = DirectionAngle;
+        MovementStateMachine.ReusableData.CurrentTargetRotation.y = DirectionAngle;
         //角度更新后 旋转时间需要重置
-        damedTargetRotationPassedTime.y = 0f;
+        MovementStateMachine.ReusableData.DampedTargetRotationPassedTime.y = 0f;
     }
     //根据输入方向计算角度
     public float GetDirectionAngle(Vector3 Direction)
@@ -133,12 +125,13 @@ public class PlayerMovementState : IState
     public Vector3 GetMoveDirection()
     {
         //获取玩家的输入方向
-        return new Vector3(movementInput.x, 0f, movementInput.y);
+        return new Vector3(MovementStateMachine.ReusableData.MovementInput.x, 0f, MovementStateMachine.ReusableData.MovementInput.y);
     }
     public float GetSpeed()
     {
         //计算移动速度
-        return baseSpeed * speedModifier;
+        return (MovementStateMachine.PlayerMoving.Data?.playerGroundedData?.baseSpeed ?? 3f)
+            * MovementStateMachine.ReusableData.SpeedModifier;
     }
     //声明一个方法去控制速度
     public Vector3 GetPlayerHorizontalSpeed()
@@ -152,12 +145,16 @@ public class PlayerMovementState : IState
     public void RotateTowardsTargetRatation()
     {
         float currentYAngle = MovementStateMachine.PlayerMoving.playerRigidbody.rotation.eulerAngles.y;
-        if(currentYAngle == currentTargetRotation.y)
+        if(currentYAngle == MovementStateMachine.ReusableData.CurrentTargetRotation.y)
         {
             return;
         }
-        float smoothDampYAngle = Mathf.SmoothDampAngle(currentYAngle, currentTargetRotation.y, ref dampedTargetRotationCurrentVelocity.y, timeToreachTargetRotation.y - damedTargetRotationPassedTime.y);
-        damedTargetRotationPassedTime.y += Time.deltaTime;
+        float smoothDampYAngle = Mathf.SmoothDampAngle(
+            currentYAngle,
+            MovementStateMachine.ReusableData.CurrentTargetRotation.y,
+            ref MovementStateMachine.ReusableData.DampedTargetRotationCurrentVelocity.y,
+            MovementStateMachine.ReusableData.TimeToReachTargetRotation.y - MovementStateMachine.ReusableData.DampedTargetRotationPassedTime.y);
+        MovementStateMachine.ReusableData.DampedTargetRotationPassedTime.y += Time.deltaTime;
         Quaternion targetRotation = Quaternion.Euler(0f, smoothDampYAngle, 0f);
         MovementStateMachine.PlayerMoving.playerRigidbody.MoveRotation(targetRotation);
     }

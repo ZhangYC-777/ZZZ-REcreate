@@ -14,7 +14,7 @@ public class PlayerIdlingState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
-        speedModifier = 0f;
+        MovementStateMachine.ReusableData.SpeedModifier = 0f;
         //调用重置玩家速度的方法
         ResetPlayerSpeed();
     }
@@ -23,7 +23,7 @@ public class PlayerIdlingState : PlayerGroundedState
     {
         base.Update();
         //检测玩家输入 有输入执行移动状态改变逻辑
-        if(movementInput == Vector2.zero)
+        if(MovementStateMachine.ReusableData.MovementInput == Vector2.zero)
         {
             return;
         }

@@ -4,6 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerMoving : MonoBehaviour
 {
+    [field: SerializeField] public PlayerSO Data { get; private set; }
     public MovementStateMachines movementStateMachines;
     public PlayerInput playerInput{get; private set;}
     public Rigidbody playerRigidbody{get; private set;}

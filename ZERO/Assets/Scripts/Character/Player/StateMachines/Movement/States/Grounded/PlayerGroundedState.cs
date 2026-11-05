@@ -27,5 +27,10 @@ public class PlayerGroundedState : PlayerMovementState
     {
         MovementStateMachine.ChangeState(MovementStateMachine.runningState);
     }
+    //声明监听事件进入冲刺状态
+    public virtual void OnDash()
+    {
+        MovementStateMachine.ChangeState(MovementStateMachine.dashingState);
+    }
 
 }
